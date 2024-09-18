@@ -1,0 +1,38 @@
+/* src/TransporterForm.css */
+
+.form-container {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgb(215, 228, 232);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Reduced width */
+    min-height: 500px;
+    width: 100%; /* Ensures container stretches to its parent width */
+    
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem; /* Example of adjusting heading font size */
+}
+
+.label-bold {
+    font-weight: bold; /* Make labels bold */
+}
+
+button.submit-button { 
+    background-color: #81888f;
+    border-color: #007bff;
+    width: 150px;
+}
+
+button.submit-button:hover {
+    background-color: #420202;
+    border-color: #04284f;
+}
+
+.text-center {
+    text-align: center; /* Align center for button */
+}

@@ -1,0 +1,74 @@
+.service {
+  color: #333; /* General text color for better readability */
+}
+
+.services-heading {
+  color: #333; /* Same color as the general text for consistency */
+  font-size: 2rem; /* Increased font size for the heading */
+  font-weight: bold; /* Bold font for emphasis */
+  margin-bottom: 2rem; /* Extra margin for spacing */
+}
+
+.service-card-wrapper {
+  cursor: pointer;
+}
+
+.service-card {
+  height: 100%; /* Ensure the card takes full height of the container */
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none; /* Remove default card border */
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  height: 250px; /* Set a fixed height for the image */
+  width: 100%; /* Ensure the image takes full width */
+  object-fit: cover; /* Cover the entire area */
+  border-radius: 0.25rem; /* Add subtle rounding to corners */
+}
+
+.service-name {
+  
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Center the heading text */
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #555; /* Neutral color for description text */
+  text-align: center; /* Center the description text */
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .service-row {
+    flex-direction: column; /* Stack rows on smaller screens */
+  }
+
+  .service-name {
+    font-size: 1.25rem; /* Adjust font size for mobile */
+  }
+
+  .service-description {
+    font-size: 0.9rem; /* Adjust font size for mobile */
+  }
+}

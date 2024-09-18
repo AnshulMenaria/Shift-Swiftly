@@ -1,0 +1,163 @@
+.navbar {
+  z-index: 1;
+}
+
+.relocation-image {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+  height: 10vh;
+}
+
+.full-screen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ADD {
+  background-color: rgb(216, 185, 119);
+}
+.relocation-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+}
+
+.booking-form {
+  background-color: rgb(54, 85, 128);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 8px grey;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.book-now-button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .booking-form {
+    padding: 15px;
+  }
+
+  .book-now-button {
+    margin-top: 5px;
+  }
+}
+
+.Text-container {
+  padding: 20px;
+  margin-top: 100vh;
+
+
+}
+
+
+.Text-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .Text-container {
+
+    padding: 20px;
+  }
+
+  .Text-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .Text-container p {
+    font-size: 0.9rem;
+  }
+}
+
+.price-container {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  margin-top: 0px;
+  right: 0;
+  width: 50vh;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .price-container {
+    position: static; /* Reset positioning */
+    margin: 250px auto 0 auto; /* Center the container below the form */
+    width: 100%; /* Full width */
+    order: 1; /* Ensure it comes after the form */
+  }
+
+  .booking-form {
+    order: 0; /* Ensure the form comes before the price box */
+  }
+  
+  .overlay {
+    flex-direction: column; /* Stack the form and price box vertically */
+    align-items: center; /* Center align the form and price box */
+  }
+}
+
+.price-box {
+  background-color: rgb(167, 193, 193);
+  border: 1px solid #ddd;
+  color: white;
+  
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-box h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.price-box p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+.price-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.price-box ul li {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}

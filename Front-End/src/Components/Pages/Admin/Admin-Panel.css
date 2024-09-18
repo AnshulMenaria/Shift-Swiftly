@@ -1,0 +1,49 @@
+/* AdminPanel.css */
+
+/* Basic styling for the container */
+.admin-panel-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Styling for each card */
+  .admin-panel-card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #485263;
+    
+  }
+  
+  .admin-panel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for card body */
+  .admin-panel-card .card-body {
+    padding: 20px;
+  }
+  
+  /* Styling for card title */
+  .admin-panel-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Styling for card text */
+  .admin-panel-card .card-text {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Styling for error message */
+  .text-danger {
+    font-size: 1.1rem;
+    color: #dc3545;
+    text-align: center;
+  }
+  

@@ -1,0 +1,56 @@
+.order-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .order-list-item h5 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-list-item p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .order-list-item .btn {
+    min-width: 90px;
+  }
+  /* PendingOrders.css */
+
+/* Custom Loader Styles */
+.custom-loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.custom-loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}

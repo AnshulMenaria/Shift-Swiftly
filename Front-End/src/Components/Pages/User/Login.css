@@ -1,0 +1,96 @@
+/* Login.css */
+
+.ul-login-background {
+  background: linear-gradient(145deg, #92b581, #496bb5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ul-login-container {
+  background: #2c3e50;
+  padding: 2rem;
+  border-radius: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.ul-login-card {
+  color: #ecf0f1;
+  border-radius: 50px;
+  animation: ul-fadeIn 1s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes ul-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ul-login-card:hover {
+  transform: translateY(-3px);
+}
+
+.ul-form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.ul-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.ul-form-group input,
+.ul-form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.ul-login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ul-login-btn:hover {
+  background: #2980b9;
+}
+
+.ul-signup-link {
+  margin-top: 1.2rem;
+  color: white;
+}
+
+.ul-signup-link a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.ul-signup-link a:hover {
+  color: #2980b9;
+}
+
+.alert {
+  margin-bottom: 1rem;
+}

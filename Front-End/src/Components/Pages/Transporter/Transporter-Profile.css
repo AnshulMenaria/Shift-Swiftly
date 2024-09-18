@@ -1,0 +1,41 @@
+.transporter-panel {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.transporter-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.transporter-card:hover {
+  transform: scale(1.05);
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-title-left {
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.card-count-right {
+  font-size: 1rem;
+  color: white;
+}
+
+#profile-card {
+  background-color: #5e7281;
+}
+
+#pending-orders-card {
+  background-color: #5e7281;
+}
+
+#completed-orders-card {
+  background-color: #5e7281;
+}

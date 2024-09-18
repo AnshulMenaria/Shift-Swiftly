@@ -1,0 +1,14 @@
+body {
+  background-image: url('../public/BG1.jpg'); 
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; 
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: Black; /* Dark color for text */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

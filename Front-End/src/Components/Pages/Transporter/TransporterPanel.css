@@ -1,0 +1,27 @@
+/* TransporterPanel.css */
+
+.transporter-panel {
+  padding: 20px;
+}
+
+.transporter-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.transporter-card:hover {
+  transform: scale(1.05);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-title-left {
+  font-weight: bold;
+}
+
+.card-count-right {
+  float: right;
+}
