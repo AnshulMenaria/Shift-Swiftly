@@ -68,7 +68,7 @@ const AdminPanel = () => {
         console.error("Fetch error:", error);
         setError("Failed to fetch data. Please try again later.");
       } finally {
-        setLoading(false); // Set loading to false when data is fetched
+        setLoading(false);
       }
     };
 

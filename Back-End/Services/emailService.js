@@ -1,19 +1,21 @@
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail', // You can use any email service
+    service: 'gmail',
     auth: {
-        user: 'anshul9145946510@gmail.com',
-        pass: 'ydnr intr rbsz dbhd'
+        user: 'anshulmenaria@gmail.com',
+        pass: 'xtib xjex cbap ljzp' // use environment variable in production
     }
 });
 
-const sendEmail = (to, subject, text) => {
+const sendEmail = (to, subject, html, source = "shiftSwiftly") => {
+    const senderName = source === "portfolio" ? "Anshul Menaria" : "ShiftSwiftly";
+
     const mailOptions = {
-        from: '"ShiftSwiftly" <anshul9145946510@gmail.com>',
+        from: `"${senderName}" <anshulmenaria@gmail.com>`,
         to,
         subject,
-        text
+        html
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
