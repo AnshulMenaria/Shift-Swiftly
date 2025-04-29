@@ -46,7 +46,7 @@ const contactController = {
             `;
 
             await sendEmail(
-                "anshul9145946510@gmail.com",
+                "anshulmenaria@gmail.com",
                 `📬 New Contact Request - ${brandName}`,
                 adminMessage,
                 source
